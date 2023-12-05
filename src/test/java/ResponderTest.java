@@ -16,8 +16,8 @@ class ResponderTest {
     }
 
     @Test
-    void deveRetornarRespostaPromotor(){
-        assertEquals("Atendente", atendente.verResposta(new Responder(RespostaDoPromotor.getRespostaDoPromotor())));
+    void deveRetornarRespostaAtendente(){
+        assertEquals("Atendente", atendente.verResposta(new Responder(RespostaAtendente.getRespostaAtendente())));
     }
 
     @Test
@@ -26,8 +26,8 @@ class ResponderTest {
     }
 
     @Test
-    void deveRetornarRespostaDetrator(){
-        assertEquals("Proprietario", atendente.verResposta(new Responder(RespostaDoDetrator.getDetratorResposta())));
+    void deveRetornarRespostaDono(){
+        assertEquals("Proprietario", atendente.verResposta(new Responder(RespostaDono.getRespostaDono())));
     }
 
     @Test

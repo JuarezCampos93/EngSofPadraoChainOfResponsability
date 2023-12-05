@@ -1,6 +1,6 @@
 public class Atendente extends Usuario {
     public Atendente(Usuario usuario){
-        listaDeRespostas.add(RespostaDoPromotor.getRespostaDoPromotor());
+        listaDeRespostas.add(RespostaAtendente.getRespostaAtendente());
         setUsuario(usuario);
     }
 
