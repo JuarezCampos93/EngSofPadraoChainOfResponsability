@@ -1,10 +1,11 @@
-public class RespostaDoPromotor implements TipoResposta {
+public class RespostaAtendente implements TipoResposta {
 
-    private static RespostaDoPromotor respostaDoPromotor = new RespostaDoPromotor();
+    private static RespostaAtendente respostaAtendente = new RespostaAtendente();
 
-    private RespostaDoPromotor(){};
+    private RespostaAtendente(){};
 
-    public static RespostaDoPromotor getRespostaDoPromotor(){
-        return respostaDoPromotor;
+    public static RespostaAtendente getRespostaDoPromotor(){
+        return respostaAtendente;
     }
 }
+
