@@ -1,11 +1,11 @@
-public class RespostaDoDetrator implements TipoResposta {
+public class RespostaDono implements TipoResposta {
 
-    private static RespostaDoDetrator respostaDoDetrator = new RespostaDoDetrator();
+    private static RespostaDono respostaDono = new RespostaDono();
 
-    private RespostaDoDetrator() {
+    private RespostaDono() {
     }
 
-    public static RespostaDoDetrator getDetratorResposta() {
-        return respostaDoDetrator;
+    public static RespostaDono getDetratorResposta() {
+        return respostaDono;
     }
 }
